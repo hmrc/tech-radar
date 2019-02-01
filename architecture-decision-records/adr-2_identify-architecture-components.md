@@ -10,6 +10,15 @@ While this is the case if design and implementation are functions which generate
 
 We will identify the component parts of technical guidance material we have collected and used to date across the spaces within architecture and will work to de-duplicate, and arrive at a shared understanding of the definition of these pieces.  We will in addition work to gain a shared understanding on what the correct level of granularity is for these working parts.
 
+Not exhaustive yet, but below is our initial suggestion for a list of component types:
+
+* goals
+* principles
+* anti-patterns
+* patterns
+* constraints
+* decision trees
+
 ## Status
 
 Accepted.
