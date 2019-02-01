@@ -1,6 +1,6 @@
 # Patterns
 
-* Exposing Protected APIs to HMRC Internal Networks
+* Exposing Protected APIs to the organisation's Internal Networks
 * Frontend Error Handling
 * Interstitial User Journeys
 * Service Discovery
