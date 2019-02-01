@@ -11,3 +11,7 @@ These goals highlight the primary outcomes that the organisation expects to achi
 * Resilience
 * Scalability
 * Re-usability
+* “Cloud First” hosting approach to reduce infrastructure cost and increase maintainability
+* Use Open Standard, open source software to reduce software licensing costs (Trusted providers, Inspectable code)
+* Limit Commercial/Vendor/Supplier Tie-in
+* Small, Isolated Components – relatively easy to swap in/out
