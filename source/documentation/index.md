@@ -16,8 +16,4 @@ Internal advice is material we use within the organisation to permit de-centrali
 * [Internal advice - Principles](internal-advice/principles/principles.md)
 * [Internal advice - Domain modelling](internal-advice/domain-modelling/domains.md)
 
-
-## Tech Radar Team
-* [Architecture Decision Records](adr.md)
-
 All content is available under the [Open Government Licence v3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3), except where otherwise stated.
