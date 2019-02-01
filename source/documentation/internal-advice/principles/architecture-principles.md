@@ -1,4 +1,4 @@
-# Principle
+# Architecture Principles
 
 (TODO: add rationale structure)
 
@@ -21,4 +21,3 @@
 17. Data Driven Services
 18. [API First](https://github.com/rossputin/tech-radar/blob/develop/source/documentation/internal-advice/principles/APIFirst.md)
 19. Design for Scale and Availability (TODO: add rationale with disclaimer, per case basis)
-
