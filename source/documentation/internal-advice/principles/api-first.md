@@ -2,7 +2,7 @@
 # API First #
 
 
-## Statement ##
+## Goals ##
 
 Make the micro-services consumable for various devices, applications including your own customer facing services by providing APIs.
 
