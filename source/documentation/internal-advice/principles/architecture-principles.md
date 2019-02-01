@@ -19,5 +19,5 @@
 15. Code in the open
 16. REST based Interfaces (TODO: preferred over client libraries, include rationale)
 17. Data Driven Services
-18. [API First](APIFirst.md)
+18. [API First](api-first.md)
 19. Design for Scale and Availability (TODO: add rationale with disclaimer, per case basis)
