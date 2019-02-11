@@ -6,3 +6,4 @@
 * Service Discovery
 * Synchronous integration with Heads of Duty Systems
 * Technology Choices
+* ROSM - Register Once Subscribe Many
