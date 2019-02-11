@@ -7,6 +7,7 @@ This is the tech radar.
 External advice is best practice material we have pulled from the outside world.
 
 * [External advice - anti-patterns](external-advice/anti-patterns/anti-patterns.md)
+* [External advice - patterns](external-advice/patterns.md)
 
 ## Internal Advice
 
