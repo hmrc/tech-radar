@@ -1,0 +1,47 @@
+
+# Exposing Protected APIs to HMRC Internal Networks
+
+## Context
+
+Some services expose APIs that are intended to be consumed by other systems within the HMRC corporate network. An example of this might be an API that receives out-of-band notifications for a given tax identifier, triggered by some back office process. In these cases, we need to ensure that only the _right_ systems are able to call the _right_ APIs within the platform, and no more.
+
+## Solution
+The pattern for implementing this is fortunately quite simple and requires only two issues to be addressed:
+
+1.  Expose the relevant API to HMRC Corporate via NGINX
+2.  Configure authentication for the service
+
+
+The configuration required for each of these issues is detailed below.
+
+### NGINX Configuration
+
+Each service is responsible for raising a ticket to include configuration in NGINX that will expose their API. It is critical that this configuration is as specific and restricted as possible so as not to unintentionally expose more APIs than are required. 
+
+In security terms, this is known as the Principle of Least Privilege - only allowing the caller to access what they need and no more. As a starting point, the NGINX configuration should consider the following:
+
+1.  The location should be limited to the URL that is to be exposed
+2.  The location should be limited to the HTTP method that is intended to be used (e.g. if the backend system is simply  `GET`-ing data, it should not be allowed to  `POST`)
+
+Example configuration might look something like this:
+
+    location /my-service/notifications/exposed-url {
+
+		if  ($request_method = GET) {
+
+			proxy_set_header Host 'my-service.service';
+
+			proxy_pass http://my-service.service;
+		}
+	}
+
+If you need help defining appropriate NGINX configuration, please speak to WebOps about how to lock this down appropriately for your service.
+
+### Service Authentication
+
+Each service should implement HTTP Basic authentication to restrict access to those endpoints that should only be available to back-end systems. This limits the risk that someone with access to the corporate network could call an API that they are not permitted to call by simply knowing the URL.
+
+The credentials used for this should be unique (i.e. not shared with any other service) and validated within the microservice itself. NGINX will not check the credentials and will simply pass on the request to the downstream service, so it is critical that the service perform authentication against the configured credentials.
+ 
+## Legacy Services without Authentication
+Some services have been exposed historically without authentication. In these cases, the fact that authentication is not taking place must be raised to the attention of the Information Risk Assessor who can document the risk and bring it to the attention of the Risk Owner. Whether or not authentication is required is a decision for the relevant Risk Owner. This exception is only applicable in cases where there is additional cost on suppliers making changes to downstream systems and the risk must be weighed against the cost of remediation.
