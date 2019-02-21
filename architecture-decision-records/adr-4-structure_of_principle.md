@@ -14,7 +14,7 @@ We propose the following struture for principle artefacts:
 * Rationale
 * Consequences
 * Examples (optional)
-* Occasions when the principle may not apply (optional)
+* Exceptions (optional)
 
 # Status
 
