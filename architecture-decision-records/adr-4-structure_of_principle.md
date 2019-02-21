@@ -14,7 +14,7 @@ We propose the following struture for principle artefacts:
 * Rationale
 * Consequences
 * Examples (optional)
-* Exceptions (optional)
+* Recognised Exceptions (optional)
 
 # Status
 
