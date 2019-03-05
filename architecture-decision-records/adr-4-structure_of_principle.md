@@ -14,7 +14,8 @@ We propose the following struture for principle artefacts:
 * Rationale
 * Consequences
 * Examples (optional)
-* Recognised Exceptions (optional)
+* Discussion Points (optional)
+  * Case by case topics (e.g. If service uses legacy APIs, contact TRAP: add TRAP/Arc Triage email hyperlink)
 
 # Status
 
