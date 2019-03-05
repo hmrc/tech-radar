@@ -11,9 +11,11 @@ We propose the following struture for principle artefacts:
 
 * Context
   * Where possible link to URI's for business strategy identifying bullet points the principle is designed to promote
+* Problem(s)
 * Rationale
 * Examples
 * Discussion Points
+  * Case by case topics (e.g. If service uses legacy APIs, contact TRAP: add TRAP/Arc Triage email hyperlink)
 
 # Status
 
