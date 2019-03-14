@@ -34,9 +34,9 @@ Stakeholder groups will need to re-factor the format and structure of pattern ma
   (see Martin Fowler) [http://martinfowler.com/articles/microservices.html#ComponentizationViaServices]
 
 * Problem(s) 
- * Respond to change quickly
- * Availability
- * Scalability
+  * Respond to change quickly
+  * Availability
+  * Scalability
 
 * Rationale
 This could otherwise be stated as “loose coupling and high cohesion”. When changes must be made, they should be achieved through independently deployable services. Loose coupling means that a change in one service does not require a change in any other service. High cohesion means that related changes are typically made in a single location.
