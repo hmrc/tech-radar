@@ -11,7 +11,7 @@ We propose the following struture for principle artefacts:
 
 * Context
   * Where possible link to URI's for business strategy identifying bullet points the principle is designed to promote
-* Problem(s)
+* Problems
 * Rationale
 * Examples
 * Discussion Points
@@ -33,7 +33,7 @@ Stakeholder groups will need to re-factor the format and structure of pattern ma
   * (Link to URI for business strategy)
   (see Martin Fowler) [http://martinfowler.com/articles/microservices.html#ComponentizationViaServices]
 
-* Problem(s) 
+* Problems
   * Respond to change quickly
   * Availability
   * Scalability
