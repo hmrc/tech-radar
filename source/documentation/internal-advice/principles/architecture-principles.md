@@ -17,7 +17,7 @@
 13. Reuse existing services wherever possible
 14. Design with the Fallacies of Distributed Computing in mind
 15. Code in the open
-16. REST based Interfaces (TODO: preferred over client libraries, include rationale)
+16. [REST based Interfaces](rest_interface.md)
 17. Data Driven Services
 18. [API First](api-first.md)
 19. Design for Scale and Availability (TODO: add rationale with disclaimer, per case basis)
