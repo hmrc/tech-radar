@@ -18,6 +18,6 @@
 14. Design with the Fallacies of Distributed Computing in mind
 15. Code in the open
 16. [REST based Interfaces](rest_interface.md)
-17. [Data Driven Services](data_driven.mb)
+17. [Data Driven Services](data_driven.md)
 18. [API First](api-first.md)
 19. Design for Scale and Availability (TODO: add rationale with disclaimer, per case basis)
