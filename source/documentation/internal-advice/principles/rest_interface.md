@@ -4,7 +4,7 @@
 
 REST will be the default interfacing standard of digital services.
 
-# Problems
+# Problem(s)
 
 All the legacy systems are batch processing applications. REST forces synchronous communication between the front end and backend systems. This change in the end-to-end communication model requires large scale transformation approach. 
 
@@ -14,7 +14,11 @@ REpresentational State Transfer (REST) protocol relies on stateless client serve
 
 # Example
 
+None
+
 # Discussion Points
+
+None
 
 
 
